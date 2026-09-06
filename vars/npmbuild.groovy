@@ -1,3 +1,3 @@
 def call(){
-    sh 'npm build'
+    sh 'npm run build'
 }
