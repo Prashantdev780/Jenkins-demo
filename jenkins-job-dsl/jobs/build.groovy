@@ -1,4 +1,4 @@
-job('demo-folder/build-job'){
+job('build-job'){
   description('job created by dsl')
 
 scm {
