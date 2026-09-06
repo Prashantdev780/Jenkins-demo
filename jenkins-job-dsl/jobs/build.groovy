@@ -1,4 +1,4 @@
-job('build-job'){
+job('src-demo-hello'){
   description('job created by dsl')
 
 scm {
