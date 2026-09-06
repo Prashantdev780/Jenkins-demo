@@ -1,7 +1,14 @@
 package org.mgklm
 
 class hello {
-  String message(String name){
+String name
+  
+hello(String name = 'PrashantD'){ //fallback name 
+  this.name = name
+}
+  
+  
+  String message(){
     return 'Hello ${name}' 
   }
 }
