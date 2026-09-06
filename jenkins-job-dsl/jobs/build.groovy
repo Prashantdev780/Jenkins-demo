@@ -1,4 +1,4 @@
-job('srco'){
+job('clone-build-test-demo'){
   description('job created by dsl')
 
 scm {
