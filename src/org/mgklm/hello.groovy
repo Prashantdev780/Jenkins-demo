@@ -9,6 +9,6 @@ hello(String name = 'PrashantD'){ //fallback name
   
   
   String message(name){
-    return 'Hello ${name}' 
+    return "Hello ${name}"
   }
 }
