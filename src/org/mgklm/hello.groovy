@@ -1,6 +1,6 @@
 package org.mgklm
 
-class hello {
+class hello implements Serializable {
 String name
   
 hello(String name = 'PrashantD'){ //fallback name 
