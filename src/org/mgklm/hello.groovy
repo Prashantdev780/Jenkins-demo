@@ -8,7 +8,7 @@ hello(String name = 'PrashantD'){ //fallback name
 }
   
   
-  String message(){
+  String message(name){
     return 'Hello ${name}' 
   }
 }
